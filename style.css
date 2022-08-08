@@ -32,7 +32,15 @@
 }
 
 /* removes search icon new */
-.search-button {
+#search-button {
+	visibility: hidden;
+}
+
+.icon.btn.no-text.btn-primary {
+	visibility: hidden;
+}
+
+.link-bottom-line {
 	visibility: hidden;
 }
 
