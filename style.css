@@ -31,9 +31,19 @@
 	display: none;
 }
 
+/* removes author text beneath post title */
+.topic-list .link-bottom-line .byline, .topic-list .discourse-tags {
+	visibility: hidden;
+}
+
 /* removes 'views' column */
 .activity.sortable.num {
 	display: none;
+}
+
+/* removes 'views' numbers */
+.topic-list .num {
+	visibility: hidden;
 }
 
 /* removes 'latest reply' column */
