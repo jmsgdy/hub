@@ -31,6 +31,11 @@
 	display: none;
 }
 
+/* removes search icon new */
+#search-button {
+	visibility: hidden;
+}
+
 /* removes author text beneath post title */
 .topic-list .link-bottom-line .byline, .topic-list .discourse-tags {
 	visibility: hidden;
