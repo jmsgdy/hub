@@ -26,6 +26,11 @@
 	visibility: hidden;
 }
 
+/* removes search icon */
+.list-controls .btn {
+	display: none;
+}
+
 /* removes 'views' column */
 .activity.sortable.num {
 	display: none;
