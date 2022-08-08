@@ -27,7 +27,7 @@
 }
 
 /* removes search icon */
-.list-controls .btn {
+.btn {
 	display: none;
 }
 
