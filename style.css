@@ -32,7 +32,7 @@
 }
 
 /* removes search icon new */
-#search-button {
+.search-button {
 	visibility: hidden;
 }
 
