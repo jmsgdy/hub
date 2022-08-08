@@ -301,11 +301,11 @@ a #forgot-password {
 
 
 
-
+/*
 #referrals-container #sidebar, #referrals-container .panel-content, .referrals-modal #sidebar, .referrals-modal .panel-content {
     float: left;
     display: block;
-    /* margin-right: 2.17235%; */
+    	margin-right: 2.17235%;
     width: 40%;
 }
 
@@ -315,4 +315,4 @@ a #forgot-password {
     margin: 0;
     padding: 4em;
 }
-
+*/
