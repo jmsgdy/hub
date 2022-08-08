@@ -105,7 +105,7 @@
 /* SIGN IN PAGE */
 
 /* hides brand banner at top of page - NOT SURE IF CORRECT */
-.#sessions #custom-banner {
+#sign-in #custom-banner {
 	display: none;
 }
 
@@ -224,14 +224,14 @@ a #forgot-password {
 	display: none;
 }
 
-/* Remove container above custom footer */
+/* Remove container above custom footer 
 .footer-container {
 	display: none;
 	height: 0;
-}
+} */
 
 
-/* Remove custom footer */
+/* Remove custom footer 
 #custom-footer {
 	display: none;
 }
