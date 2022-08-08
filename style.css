@@ -105,7 +105,7 @@
 /* SIGN IN PAGE */
 
 /* hides brand banner at top of page - NOT SURE IF CORRECT */
-.new-advocate-hub #custom-banner {
+.#sessions #custom-banner {
 	display: none;
 }
 
@@ -197,7 +197,8 @@
 
 /* moves 'forgot password' text to right side */
 a #forgot-password {
-	float: right;
+	display: inline-block;
+	margin-left: 10px;
 	color: #1e1a14ff;
 }
 
