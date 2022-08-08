@@ -1,0 +1,290 @@
+/* HOMEPAGE */
+
+
+/* hides 'categories' filter */
+#ember32 {
+	visibility: hidden;
+}
+
+/* hides 'categories' filter */
+#ember84 {
+	visibility: hidden;
+}
+
+/* hides 'new topic' button */
+#create-topic {
+	visibility: hidden;
+}
+
+/* hides 'topic' button label - NOT SURE IF NEEDED */
+.d-button-label {
+	visibility: hidden;
+}
+
+/* hides time since post in latest reply column */
+.relative-date {
+	visibility: hidden;
+}
+
+/* removes 'views' column */
+.activity.sortable.num {
+	display: none;
+}
+
+/* removes 'latest reply' column */
+.activity.sortable.num {
+	display: none;
+}
+
+/* removes 'replies' column */
+.posts.sortable.num {
+	display: none;
+}
+
+/* removes 'category' dropdown filter */
+.category-breadcrumb.ember-view {
+	display: none;
+}
+
+/* removes category name from beneath post title */
+.category-name {
+	visibility: hidden;
+}
+
+
+/* ANNOUNCEMENTS */
+
+/* removes suggested topics section at bottom of page */
+.suggested-topics{
+	display: none;
+}
+
+/* removes topic post stats */
+.topic-map{
+	display: none;
+}
+
+
+/* hides post interaction options */
+.post-menu-area {
+	visibility: hidden;
+}
+
+
+
+
+
+/* SIGN IN PAGE */
+
+/* hides brand banner at top of page - NOT SURE IF CORRECT */
+.new-advocate-hub #custom-banner {
+	display: none;
+}
+
+/* Removes navbar from above content container */
+.navbar {
+	display: none;
+}
+
+/* Content full page container styling */
+#content {
+	position: absolute;
+	width: 100%;
+	margin: 0;
+}
+
+/* sets container to full page size */
+.main-container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+    display: table;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+/* sets container to full height */
+.column-container {
+	height:  100%;
+	width:  100%;
+	padding:  0;
+	display: table-cell;
+	box-sizing: content-box;
+	vertical-align: middle;
+	alignment-baseline: middle;
+}
+
+/* color of left column container background */
+.logged-out .column-secondary {
+	background-color: yellow;
+}
+
+/* left container column size & styling */
+.column-secondary {
+	width: 50%;
+	background-color: #fff;
+}
+
+
+/* right container 'sign in' column size & styling */
+.column-primary {
+	width: 50%;
+	background-color: #fff;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+/* makes login box horizontally centered */
+#logged-out-form-container {
+	margin: auto;
+}
+
+
+
+.login-box {
+	background-color: transparent;
+	color: #999;
+	width: 324px;
+	vertical-align: middle;
+}
+
+
+/* remove astericks from field labels */
+.pt-label>label .required-icon {
+	visibility: hidden;
+}
+
+
+
+
+/* sign in button styling */
+.button.primary {
+	background-color: #1e1a14ff;
+	border-radius: 5vh;
+	width: 50%;
+	float: left;
+}
+
+
+/* moves 'forgot password' text to right side */
+a #forgot-password {
+	float: right;
+	color: #1e1a14ff;
+}
+
+
+/* forces join code beneath sign in row */
+.join-code {
+	padding-top: 8vh;
+}
+
+/* right container removes breakline beneath button */
+.rule-container {
+	display: none;
+}
+
+
+/* right container removes social login options */
+.login-providers{
+	display: none;
+}
+
+/* Removes 'trouble logging in' text */
+.caption {
+	display: none;
+}
+
+/* Remove container above custom footer */
+.footer-container {
+	display: none;
+	height: 0;
+}
+
+
+/* Remove custom footer */
+#custom-footer {
+	display: none;
+}
+
+/* Remove blue circular help icon in bottom right */
+.BeaconFabButtonFrame {
+	display: none;
+}
+
+
+
+
+
+
+
+/* REFERRALS PAGE */
+
+
+/* forces top half of footer container to full width of page */
+.container {
+	width: 100%;
+}
+
+
+/* Removes activity panel from right column, thereby removing overlap of acheivements section on footer*/
+.aknycOYlj-fxsAtnG4qMq {
+	display: none;
+}
+
+/* removes right side panel from page - above one not needed if using this */
+.right-sidebar {
+	display: none;
+}
+
+
+/* makes content box full size */
+.main-content-container {
+	box-sizing:  content-box;
+}
+
+
+/* makes content full width inside container */
+.referral-submission {
+    background: #fff;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* makes container full width of page */
+#content {
+    max-width: 100%;
+    margin: 0 auto 0;
+}
+
+/* using this css removes existing style that creates container box with margins */
+.main-content {
+	background-color: #fff;
+}
+
+
+/* removes space between main container and custom footer */
+.c-footer {
+	display:  none;
+}
+
+
+
+
+
+
+
+#referrals-container #sidebar, #referrals-container .panel-content, .referrals-modal #sidebar, .referrals-modal .panel-content {
+    float: left;
+    display: block;
+    /* margin-right: 2.17235%; */
+    width: 40%;
+}
+
+
+
+#referrals-container #sidebar, .referrals-modal #sidebar {
+    margin: 0;
+    padding: 4em;
+}
+
